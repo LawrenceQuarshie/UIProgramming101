@@ -76,3 +76,4 @@ def add(num1, num2):
 | Name     | Email             |
 | -------- | ----------------- |
 | John Doe | johndoe@gmail.com |
+| Jane Doe | janedoe@gmail.com |
