@@ -11,18 +11,52 @@
             <nav>
                 <img src="img/informacean-logo.png" alt="">
                 <form action="" method="get">
-                    <input type="text" name="" id="">
+                    <input type="text" name="" id="input-id1">
                     <button type="submit"></button>
                 </form>
                 <ul>
                     <li>
-                        <a href="">Products</a>
+                        <span onclick="displayProducts()">Products</span>
+                        <ul id="ul-id1">
+                            <li>
+                                <a href="">Phones</a>
+                            </li>
+                            <li>
+                                <a href="">Tablets</a>
+                            </li>
+                            <li>
+                                <a href="">Laptops</a>
+                            </li>
+                            <li>
+                                <a href="">Tvs</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="">Price Drops</a>
                     </li>
+                    <li>
+                        <a href="">Compare</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">Sign Up</a>
+                    </li>
                 </ul>
             </nav>
         </header>
+        <main>
+            <ul>
+                <li>
+                    <a href="#" onclick="populateInput()">Apple iPhone 15 Pro Max</a>
+                </li>
+            </ul>
+        </main>
     </body>
+    <script defer src="js/script.js"></script>
 </html>
