@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box; margin: 0; padding: 0; font-family: Helvetica, Arial, sans-serif;
 }
+#btn-id1 {
+    width: 35px; height: 35px;
+}
 #id-1 {
     display: none;
 }
