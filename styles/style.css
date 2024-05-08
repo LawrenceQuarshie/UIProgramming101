@@ -16,3 +16,6 @@ nav {
 #ul-id1 {
     display: flex; justify-content: space-between;
 }
+#ul-id2 {
+    display: none;
+}
