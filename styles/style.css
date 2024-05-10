@@ -2,13 +2,22 @@
     box-sizing: border-box; margin: 0; padding: 0; font-family: Helvetica, Arial, sans-serif;
 }
 header {
-    width: 100%;
+    width: 100%; padding: 10px 5%;
 }
 nav {
     width: 100%; display: flex; justify-content: space-between;
 }
+nav ul li {
+    list-style-type: none;
+}
+form {
+    border: 1px solid #efefef; width: 40%; display: flex;
+}
+form input {
+    width: 100%;
+}
 #btn-id1 {
-    width: 35px; height: 35px;
+    width: 35px; height: 35px; outline: none; border: none; background-color: transparent;
 }
 #id-1 {
     display: none;
